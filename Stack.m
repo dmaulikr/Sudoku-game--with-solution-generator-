@@ -1,10 +1,4 @@
-//
-//  Stack.m
-//  Cannibals
-//
-//  Created by Eric Chown on 4/9/13.
-//  Copyright (c) 2013 edu.bowdoin.cs210.chown. All rights reserved.
-//
+
 
 #import "Stack.h"
 
