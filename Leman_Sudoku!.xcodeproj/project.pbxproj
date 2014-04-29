@@ -21,6 +21,13 @@
 		11371E24184FB961004A659E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11371E06184FB961004A659E /* UIKit.framework */; };
 		11371E2C184FB961004A659E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11371E2A184FB961004A659E /* InfoPlist.strings */; };
 		11371E2E184FB961004A659E /* Leman_Sudoku_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11371E2D184FB961004A659E /* Leman_Sudoku_Tests.m */; };
+		11371E38184FBA18004A659E /* top95.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11371E37184FBA18004A659E /* top95.txt */; };
+		11371E3A184FBA1E004A659E /* msk_009.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11371E39184FBA1E004A659E /* msk_009.txt */; };
+		11371E3D184FBA65004A659E /* sudoku.m in Sources */ = {isa = PBXBuildFile; fileRef = 11371E3C184FBA65004A659E /* sudoku.m */; };
+		11371E43184FBAD7004A659E /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 11371E42184FBAD7004A659E /* Board.m */; };
+		11AD85F91850E6DA00D5780F /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AD85F81850E6DA00D5780F /* Stack.m */; };
+		11AD85FE1850E6EA00D5780F /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AD85FB1850E6EA00D5780F /* List.m */; };
+		11AD85FF1850E6EA00D5780F /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AD85FD1850E6EA00D5780F /* Node.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,19 @@
 		11371E29184FB961004A659E /* Leman_Sudoku!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Leman_Sudoku!Tests-Info.plist"; sourceTree = "<group>"; };
 		11371E2B184FB961004A659E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11371E2D184FB961004A659E /* Leman_Sudoku_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Leman_Sudoku_Tests.m; sourceTree = "<group>"; };
+		11371E37184FBA18004A659E /* top95.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = top95.txt; sourceTree = "<group>"; };
+		11371E39184FBA1E004A659E /* msk_009.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = msk_009.txt; sourceTree = "<group>"; };
+		11371E3B184FBA65004A659E /* sudoku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = ../sudoku.h; sourceTree = "<group>"; };
+		11371E3C184FBA65004A659E /* sudoku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sudoku.m; path = ../sudoku.m; sourceTree = "<group>"; };
+		11371E3E184FBA95004A659E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		11371E41184FBAD7004A659E /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		11371E42184FBAD7004A659E /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		11AD85F71850E6DA00D5780F /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		11AD85F81850E6DA00D5780F /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		11AD85FA1850E6EA00D5780F /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		11AD85FB1850E6EA00D5780F /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		11AD85FC1850E6EA00D5780F /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		11AD85FD1850E6EA00D5780F /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				11371E08184FB961004A659E /* Leman_Sudoku! */,
+				11AD85F71850E6DA00D5780F /* Stack.h */,
+				11AD85F81850E6DA00D5780F /* Stack.m */,
+				11AD85FA1850E6EA00D5780F /* List.h */,
+				11AD85FB1850E6EA00D5780F /* List.m */,
+				11AD85FC1850E6EA00D5780F /* Node.h */,
+				11AD85FD1850E6EA00D5780F /* Node.m */,
 				11371E27184FB961004A659E /* Leman_Sudoku!Tests */,
 				11371E01184FB960004A659E /* Frameworks */,
 				11371E00184FB960004A659E /* Products */,
@@ -112,12 +138,19 @@
 		11371E08184FB961004A659E /* Leman_Sudoku! */ = {
 			isa = PBXGroup;
 			children = (
-				11371E11184FB961004A659E /* AppDelegate.h */,
-				11371E12184FB961004A659E /* AppDelegate.m */,
+				11371E3E184FBA95004A659E /* Constants.h */,
+				11371E37184FBA18004A659E /* top95.txt */,
+				11371E39184FBA1E004A659E /* msk_009.txt */,
 				11371E14184FB961004A659E /* Main.storyboard */,
 				11371E17184FB961004A659E /* ViewController.h */,
 				11371E18184FB961004A659E /* ViewController.m */,
+				11371E41184FBAD7004A659E /* Board.h */,
+				11371E42184FBAD7004A659E /* Board.m */,
+				11371E3B184FBA65004A659E /* sudoku.h */,
+				11371E3C184FBA65004A659E /* sudoku.m */,
 				11371E1A184FB961004A659E /* Images.xcassets */,
+				11371E11184FB961004A659E /* AppDelegate.h */,
+				11371E12184FB961004A659E /* AppDelegate.m */,
 				11371E09184FB961004A659E /* Supporting Files */,
 			);
 			path = "Leman_Sudoku!";
@@ -228,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11371E38184FBA18004A659E /* top95.txt in Resources */,
+				11371E3A184FBA1E004A659E /* msk_009.txt in Resources */,
 				11371E1B184FB961004A659E /* Images.xcassets in Resources */,
 				11371E0D184FB961004A659E /* InfoPlist.strings in Resources */,
 				11371E16184FB961004A659E /* Main.storyboard in Resources */,
@@ -249,9 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11AD85FE1850E6EA00D5780F /* List.m in Sources */,
+				11AD85F91850E6DA00D5780F /* Stack.m in Sources */,
 				11371E19184FB961004A659E /* ViewController.m in Sources */,
 				11371E13184FB961004A659E /* AppDelegate.m in Sources */,
+				11371E3D184FBA65004A659E /* sudoku.m in Sources */,
 				11371E0F184FB961004A659E /* main.m in Sources */,
+				11371E43184FBAD7004A659E /* Board.m in Sources */,
+				11AD85FF1850E6EA00D5780F /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +424,7 @@
 				GCC_PREFIX_HEADER = "Leman_Sudoku!/Leman_Sudoku!-Prefix.pch";
 				INFOPLIST_FILE = "Leman_Sudoku!/Leman_Sudoku!-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -397,6 +438,7 @@
 				GCC_PREFIX_HEADER = "Leman_Sudoku!/Leman_Sudoku!-Prefix.pch";
 				INFOPLIST_FILE = "Leman_Sudoku!/Leman_Sudoku!-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -462,6 +504,7 @@
 				11371E33184FB961004A659E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11371E34184FB961004A659E /* Build configuration list for PBXNativeTarget "Leman_Sudoku!Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +513,7 @@
 				11371E36184FB961004A659E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
